@@ -1,0 +1,86 @@
+Product Backlog for EPIC - Login:
+
+Create a login page that accepts user email and password.
+Develop a validation process to check if the email exists in the database.
+Develop a validation process to check if the entered password matches the one associated with that email in the database.
+
+Create a forgot password functionality that allows users to reset their password by sending a temporary link to their email.
+Develop a password reset page that allows users to enter their new password.
+Develop a validation process to ensure that the password reset link is valid and has not expired.
+Develop an admin panel that allows admin users to view and manage user accounts.
+
+Develop a process that automatically generates a strong password for new users and sends it to their email.
+Develop a process that allows admin users to reset a user's password.
+Develop a process that logs users out of the system after a certain period of inactivity.
+
+
+
+
+Product Backlog for EPIC - Elective Selection:
+
+Create a page that displays all available electives.
+
+Develop a process that allows students to filter the list of electives based on credits, course type, and other criteria.
+Develop a feature that displays a brief summary of each elective course, including credits, evaluation pattern, and faculty details.
+Develop a prioritization feature that allows students to rank their elective choices.
+
+Develop a feature that displays the number of available seats for each elective course.
+Develop a feature that alerts students when an elective course they want is full.
+Develop a process that allows students to enroll in their chosen elective courses.
+
+Develop a notification system that informs students of any changes or updates to their elective courses.
+Develop a process that allows students to drop or switch elective courses.
+Develop a process that generates reports on elective course enrollment and student preferences. 
+
+
+
+
+EPIC - Visualization
+High Priority:
+As a student, I should be able to see electives which I should take to pursue a particular career-path.
+User must be shown the list of all domains from which the courses are being offered.
+For each domain, all the courses with their corresponding prerequisites must be shown.
+As a student, I should be able to see what electives will be unlocked to me if I complete an elective.
+A list of courses whose prerequisite will be satisfied if the student completes the course successfully.
+Another list can be shown which will be courses student can take if they complete the course in the previous list also.
+
+Medium Priority:
+As a student, I should be able to see the popularity and the ratings of the courses to help make a decision.
+Popularity is a percentage of students who took the course from all the students who could take that course which can help in decision making.
+Also, easy, medium, hard tags can be added to the courses which can help in decision making.
+
+Low Priority:
+As an admin, I have to be able to see how many seats are vacant after the allocation.
+Find how many students were offered that course and take the difference from the max capacity of seats in that course.
+
+
+
+
+EPIC - Management
+High Priority:
+As an admin, I should be able to notify students when the process of allocation / change of elective starts and ends.
+An email should be sent to all the students informing them about the schedules of allocation / change of electives deadlines.
+As an admin, I should be able to start and finish the allocation and change of elective process.
+The elective allocation process algorithm should start and the change of elective queries must be notified to the admin.
+
+Medium Priority:
+As an admin, I want to be able to add new elective courses or remove unpopular electives.
+Notify the admin if there is an elective which no one takes for many years so that the university can make a decision on it.
+As an admin, I should be able to keep the electives updated with the revision of the curriculum.
+After every revision to the curriculum, the database should be updated accordingly.
+
+
+
+EPIC - Elective Change
+High Priority:
+As an admin, I want to be able to receive requests from students to change their elective courses so that I can review and approve them.
+All the requests from the students must be presented to the admin in a FCFS order with an option to allocate or reject.
+Allocation will be done if there are seats still vacant after the allocation.
+As a student, I want to be able to request a change of elective course.
+A student can wish to change the elective and send a request to the admin within the deadline set by admin.
+
+Medium Priority:
+As a student, I want to be able to track the progress of my request to change my elective.
+User must be shown the status "pending" if the request is still in the queue, "rejected" if the request couldn't be fulfilled.
+As a student, I want to be able to view the seats elective courses available so that I can make an informed decision.
+Number of seats vacant has to be calculated and shown to the student while opting to change electives.
