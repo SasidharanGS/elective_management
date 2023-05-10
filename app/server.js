@@ -20,4 +20,4 @@ const postRouter = require("./routes/posts")
 app.use("/users", userRouter)
 app.use("/posts", postRouter)
 
-app.listen(3333)
+app.listen(3003)

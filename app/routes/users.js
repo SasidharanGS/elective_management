@@ -28,6 +28,7 @@ router.get("/", (req, res) =>{
 //A MORE CONCISE WAY OF DOING THE ABOVE IS:
 router.route("/:id")
 .get((req, res) =>{
+    console.log(req.person)
     res.send(`Get user with ID ${req.params.id}!`)
 })
 .put((req, res) =>{
@@ -39,5 +40,16 @@ router.route("/:id")
 
 //Remember that the routing goes top to bottom on this page
 //So put the strongest condition last!
+
+const users = [{name: "Alice"}, {name: "Bob"}]
+ 
+//The router.param() function runs everytime a param is 
+//found matching the given string
+//this fn runs infinitely if we do not specify the 'next' part
+//This is an example of a MIDDLEWARE and it runs BEFORE the get, put code
+router.param("id", (req, res, next, id) =>{
+    req.person = users[id]
+    next()
+})
 
 module.exports = router
