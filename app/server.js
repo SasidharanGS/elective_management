@@ -1,18 +1,17 @@
-console.log("Hello friend")
-
+console.log("Hello world!")
 const express = require("express")
 const app = express()
 
 app.set("view engine", "ejs")
 
 app.get('/', (req, res) => {
-    console.log('Here again')
+    console.log("Were here!")
+    // res.send("The most generic send, generally used for testing purposes")
     // res.sendStatus(500)
-    // res.status(500).send("A message just tagging along")
-    // res.status(500).json({ message: "Error"})
-    // res.json({message: "Error"})
+    // res.status(500).send("When we wanna send a message along with the status code")
     // res.download("server.js")
-    res.render("index", { text: "what even is this"})
+    // res.json({message: "Error"})
+    res.render("index", {text: "Romans, Countrymen, lend me your ears.."})    
 })
 
-app.listen(3000)
+app.listen(3333)

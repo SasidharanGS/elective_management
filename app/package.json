@@ -6,8 +6,16 @@
   "scripts": {
     "devStart": "nodemon server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SasidharanGS/elective_managemet.git"
+  },
   "author": "sasidharan_gs",
-  "license": "ISC",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/SasidharanGS/elective_managemet/issues"
+  },
+  "homepage": "https://github.com/SasidharanGS/elective_managemet#readme",
   "dependencies": {
     "ejs": "^3.1.9",
     "express": "^4.18.2"
