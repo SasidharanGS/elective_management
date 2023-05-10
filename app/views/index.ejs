@@ -11,7 +11,8 @@
         Im using the view engine EJS <br>
         The tag "< %" is used in EJS to run code on the server <br>
         The message got from the server is: <br> 
-        <%= 21+21 %> : <%= text %>
+        <%= 21+21 %> : <%= text %> <br>
+        Following best practices: <%= locals.text || "Deafult" %>
 
 
     </p>
