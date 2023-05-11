@@ -1,7 +1,7 @@
 Developers: A, R, S, V, SV
 ###############################################################################################################################################################
 
-Product Backlog for EPIC - Login:
+1 EPIC - Login:
 High Priority:
 R   -   Create a login page that accepts user email and password.
 V,A -   Develop a validation process to check if the email exists in the database.
@@ -19,7 +19,7 @@ S,V -   Develop a process that allows admin users to reset a user's password.
 R,V -   Develop a process that logs users out of the system after a certain period of inactivity.
 ###############################################################################################################################################################
 
-Product Backlog for EPIC - Elective Selection:
+2 EPIC - Elective Selection:
 Very High Priority:
 S,R -   Create a page that displays all available electives.
 
@@ -39,7 +39,7 @@ SV,A-   Develop a process that allows students to drop or switch elective course
 S,SV-   Develop a process that generates reports on elective course enrollment and student preferences. 
 ###############################################################################################################################################################
 
-EPIC - Visualization
+3 EPIC - Visualization
 High Priority:
 R   -   As a student, I should be able to see electives which I should take to pursue a particular career-path.
 SV  -   User must be shown the list of all domains from which the courses are being offered.
@@ -58,7 +58,7 @@ A   -   As an admin, I have to be able to see how many seats are vacant after th
 A   -   Find how many students were offered that course and take the difference from the max capacity of seats in that course.
 ###############################################################################################################################################################
 
-EPIC - Management
+4 EPIC - Management
 High Priority:
 R,S -   As an admin, I should be able to notify students when the process of allocation / change of elective starts and ends.
 V,R -   An email should be sent to all the students informing them about the schedules of allocation / change of electives deadlines.
@@ -72,7 +72,7 @@ S,A -   As an admin, I should be able to keep the electives updated with the rev
 A,S -   After every revision to the curriculum, the database should be updated accordingly.
 ###############################################################################################################################################################
 
-EPIC - Elective Change
+5 EPIC - Elective Change
 High Priority:
 S,R -   As an admin, I want to be able to receive requests from students to change their elective courses so that I can review and approve them.
 S,R -   All the requests from the students must be presented to the admin in a FCFS order with an option to allocate or reject.
